@@ -85,7 +85,7 @@ router.post('/', withAuth, (req, res) => {
     });
 });
 
-router.put('/id', withAuth, (req, res) => {
+router.put('/:id', withAuth, (req, res) => {
   // custom static method created in models/Post.js
   Post.update({
     title: req.body.title,
@@ -95,7 +95,7 @@ router.put('/id', withAuth, (req, res) => {
         id: req.params.id
     }
   })
-    .then(updatePostData => res.json(updatePostData))
+    .then(dbPostData => res.json(dbPostData))
     .catch(err => {
       console.log(err);
       res.status(500).json(err);
