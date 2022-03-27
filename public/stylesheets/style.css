@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+}
+
+header{
+    background-color: rgb(42, 36, 36);
+    color: black;
+
+}
+
+.app-title {
+    margin-left: 20px;
+    background-color: white;
+    color: black;
+    display: inline-block;
+    border-radius: 0.5rem;
+    box-shadow: 6px 5px lightblue;
+}
+
+.link {
+    margin: 0 40px;
+    color: white;
+}
+
+.card {
+    background-color: black;
+    border: 3px solid black;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+}
+
+.card-header {
+    color: white
+}
+
+.card-header div {
+    color: white;
+}
+
+.card-body{
+    background-color: white;
+    padding: 10px;
+}
+
+.edit-link{
+    border: 3px solid black;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.new-post-form {
+    background-color: black;
+    border: 3px solid black;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: white;
+}
