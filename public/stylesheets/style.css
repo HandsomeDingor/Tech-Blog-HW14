@@ -56,3 +56,11 @@ header{
     margin-bottom: 5px;
     color: white;
 }
+
+.comment-form {
+    background-color: black;
+    border: 3px solid black;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: white;
+}
